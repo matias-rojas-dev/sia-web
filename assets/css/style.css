@@ -1,0 +1,131 @@
+/*GENERAL*/
+*{
+    background: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+p{
+    font-size: 20px;
+}
+/* HEADER */
+.nav-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    position: fixed;
+    width: 100%;
+}
+
+
+li{
+    list-style: none;
+    margin: 0 10px;
+
+}
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+
+.header-img{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.header-img img{
+    width: 100%;
+}
+
+.header-imagen{
+    background-image: url('/assets/img/header-img.PNG');
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 1000px;
+}
+
+/*INITIAL INFO*/
+.initial-info{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+.initial-info h2{
+    margin: 20px 0;
+}
+
+
+  button {
+    margin: 50px;
+    font-family: inherit;
+  }
+  /* End of Page styling */
+  
+  /* Fill button styling */
+  .fill {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 50px 13px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .fill::after {
+    content: "";
+    background-color: #ffe54c;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
+  }
+  
+  .fill:hover::after {
+    top: 0px;
+    left: 0px;
+  }
+  /* End of Fill Button  */
+  
+/*FEATURED*/
+.featured{
+    margin: 30px 0;
+}
+
+.featured-title{
+    color: rgb(121, 121, 121);
+}
+
+.featured-container-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.featured-container-img img{
+    width: 30%;
+    margin: 40px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.featured-container-img img:hover{
+
+    border: 1px solid rgb(187, 187, 187);
+}
