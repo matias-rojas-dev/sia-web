@@ -101,6 +101,7 @@ li{
   
   /* Fill button styling */
   .fill {
+    z-index: 1;
     font-size: 20px;
     font-weight: 200;
     letter-spacing: 1px;
@@ -114,7 +115,7 @@ li{
   
   .fill::after {
     content: "";
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.671);
     width: 100%;
     z-index: -1;
     position: absolute;
@@ -224,15 +225,7 @@ footer-contact{
 }
 
 /*Formulario Estilo*/
-body {
-    font-family: Arial;
-    font-size: 17px;
-    padding: 8px;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
+
   
   .row {
     display: -ms-flexbox; /* IE10 */
@@ -274,40 +267,26 @@ body {
   input[type=text] {
     width: 100%;
     margin-bottom: 20px;
-    padding: 12px;
+    padding: 18px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    outline: none;
+    border-radius: 5px;
   }
   
   label {
     margin-bottom: 10px;
     display: block;
+    
   }
   
   .icon-container {
     margin-bottom: 20px;
-    padding: 7px 0;
     font-size: 24px;
   }
   
-  .btn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px;
-    margin: 10px 0;
-    border: none;
-    width: 100%;
-    border-radius: 3px;
-    cursor: pointer;
-    font-size: 17px;
-  }
-  
-  .btn:hover {
-    background-color: #45a049;
-  }
-  
   a {
-    color: #2196F3;
+    color: rgb(211, 147, 157);
   }
   
   hr {
@@ -320,13 +299,11 @@ body {
   }
 
   .Formulario {
-    margin-top: 200px;
     margin-left: 20%;
     margin-right: 20%;
   }
   
   .Corredor{
-  
     text-align: left;
   }
 
